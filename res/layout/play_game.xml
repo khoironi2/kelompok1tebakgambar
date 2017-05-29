@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+     xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/home_root"
+    android:orientation="vertical"
+    android:background="@drawable/gambar_menu"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+   
+ <LinearLayout
+     
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+  
+    android:orientation="vertical" >
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:orientation="horizontal"
+         android:paddingBottom="@dimen/activity_vertical_margin"
+         android:paddingLeft="@dimen/activity_horizontal_margin"
+         android:paddingRight="@dimen/activity_horizontal_margin"
+         android:paddingTop="@dimen/activity_vertical_margin" >
+
+        <TextView
+             android:id="@+id/text_lvl"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginLeft="25dp"
+             android:text="Lvl 1"
+             android:textColor="#FFFFFF"
+             android:textStyle="bold"
+             android:textSize="19dp"
+             android:typeface="serif" />
+
+     </LinearLayout>
+
+     </LinearLayout>
+     <RelativeLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="3dp"
+		    android:background="#a7a7a6" 
+		    ></RelativeLayout>
+      <RelativeLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="3dp"
+		    android:background="#FFFFFF" 
+		    >
+		    
+		</RelativeLayout>
+    	 <LinearLayout
+     
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+  
+    android:orientation="vertical" >
+    		
+<ScrollView 
+   android:layout_width="fill_parent"
+   android:layout_height="match_parent"
+   android:scrollbars="vertical"
+   
+    android:paddingBottom="7dp"
+    android:paddingLeft="7dp"
+    android:paddingRight="7dp"
+    android:paddingTop="7dp"
+ >
+
+<LinearLayout 
+    android:paddingBottom="7dp"
+    android:paddingLeft="7dp"
+    android:paddingRight="7dp"
+    android:paddingTop="7dp"
+    
+    android:layout_height="fill_parent" 
+    android:orientation="vertical" 
+    android:layout_width="fill_parent"
+    android:gravity="center_vertical|center_horizontal">
+     <LinearLayout
+     
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+ 
+
+     <ImageView
+         android:id="@+id/image_soal"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:gravity="center"
+         android:scaleType="fitXY"
+         android:src="@drawable/gambar_nama_app" />
+       
+    <TextView
+        android:id="@+id/text_soal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:paddingBottom="5dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="5dp"
+        android:text="Soal"
+        android:textColor="#ffffff"
+        android:textSize="17dp"
+        android:textStyle="bold" >
+</TextView>
+    
+    </LinearLayout>
+
+    
+    
+<Button 
+    	 android:background="@drawable/style_menu_button"
+         android:layout_width="wrap_content"
+         android:layout_margin="5dp"
+         android:layout_height="50dp"
+   		 android:text="a" 
+         android:textColor="#000000"
+         android:typeface="sans"
+         android:textSize="15dp"
+     	 android:id="@+id/button_a">
+    
+</Button>
+<Button 
+    	 android:background="@drawable/style_menu_button"
+         android:layout_width="wrap_content"
+         android:layout_margin="5dp"
+         android:layout_height="50dp"
+   		 android:text="b" 
+         android:textColor="#000000"
+         android:typeface="sans"
+         android:textSize="15dp"
+     	 android:id="@+id/button_b">
+    
+</Button>
+<Button 
+    	 android:background="@drawable/style_menu_button"
+         android:layout_width="wrap_content"
+         android:layout_margin="5dp"
+         android:layout_height="50dp"
+   		 android:text="c" 
+         android:textColor="#000000"
+         android:typeface="sans"
+         android:textSize="15dp"
+     	 android:id="@+id/button_c">
+    
+</Button>
+<Button 
+    	 android:background="@drawable/style_menu_button"
+         android:layout_width="wrap_content"
+         android:layout_margin="5dp"
+         android:layout_height="50dp"
+   		 android:text="d" 
+         android:textColor="#000000"
+         android:typeface="sans"
+         android:textSize="15dp"
+     	 android:id="@+id/button_d">
+    
+</Button>
+</LinearLayout>
+</ScrollView>
+
+</LinearLayout>
+
+    	
+    	
+</LinearLayout>

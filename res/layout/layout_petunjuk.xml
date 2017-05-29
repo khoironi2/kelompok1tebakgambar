@@ -1,0 +1,115 @@
+<LinearLayout  
+    
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/home_root"
+    android:orientation="vertical" 
+    android:background="@drawable/gambar_menu"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#4a9bf5" >
+
+        <Button
+            android:id="@+id/btn_back"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/style_back_button_back"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/textView_tittle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="14dp"
+            android:layout_toRightOf="@+id/btn_back"
+            android:text="Petunjuk"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#ffffff"
+            android:typeface="sans" />
+    </RelativeLayout>
+
+    	 	<RelativeLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="5dp"
+		    android:background="#FFFFFF" >
+		    
+			</RelativeLayout>
+			<RelativeLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="5dp"
+		    android:background="#a7a7a6" >
+    
+			</RelativeLayout>
+    		
+	<LinearLayout    
+	android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+    android:orientation="vertical"
+     android:paddingBottom="7dp"
+    android:paddingLeft="7dp"
+    android:paddingRight="7dp"
+    android:paddingTop="7dp"
+	 >
+   						
+    <ScrollView 
+   android:layout_width="fill_parent"
+   android:layout_height="wrap_content"
+   android:scrollbars="vertical"
+ >
+<LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+    android:orientation="vertical" >
+     <TextView  
+     android:textColor="#ffffff"
+     android:textSize="16dp"
+     android:textStyle="bold"
+     android:typeface="sans"
+     android:text="Petunjuk Penggunaan" 
+	 android:id="@+id/TextView01" 
+	 android:layout_height="wrap_content" 
+	 android:layout_width="match_parent" 
+	 android:layout_margin="10dp">
+        
+    </TextView>
+     <TextView  
+     android:textColor="#ffffff"
+     android:textSize="16dp"
+     android:textStyle="bold"
+     android:typeface="sans"
+     android:text="Menu Ensiklopedia : \nBerisi data tentang Rumah Adat, Pakaian Tradisional, dan Senjata Tradisional" 
+	 android:id="@+id/text1" 
+	 android:layout_height="wrap_content" 
+	 android:layout_width="match_parent" 
+	 android:layout_margin="10dp">
+        
+    </TextView>
+     <TextView  
+     android:textColor="#ffffff"
+     android:textSize="16dp"
+     android:textStyle="bold"
+     android:typeface="sans"
+     android:text="Menu Kuis : \nKlik menu kuis lalu muncul level-level dan dalam level terdapat 10 soal yang bisa anda kerjakan. Apabila 1 soal berhasil terjawab, maka lanjut ke soal berikutnya." 
+	 android:id="@+id/text2" 
+	 android:layout_height="wrap_content" 
+	 android:layout_width="match_parent" 
+	 android:layout_margin="10dp">
+        
+    </TextView>
+     
+    
+    
+</LinearLayout>
+</ScrollView>
+</LinearLayout>
+    	    
+</LinearLayout>

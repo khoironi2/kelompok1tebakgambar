@@ -1,0 +1,134 @@
+<LinearLayout  
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/home_root"
+    android:orientation="vertical" 
+    android:background="@drawable/gambar_menu"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    
+    <RelativeLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="50dp"
+ 	 >
+
+        <Button
+            android:id="@+id/btn_back"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/style_back_button_back"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/textView_tittle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="14dp"
+            android:layout_toRightOf="@+id/btn_back"
+            android:text="Ensiklopedia"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#ffffff"
+            android:typeface="sans" />
+  
+	</RelativeLayout>
+	<LinearLayout 
+    android:id="@+id/home_root"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="3dp"
+    android:background="#ffffff">
+	</LinearLayout>
+	<LinearLayout 
+    android:id="@+id/home_root"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="3dp"
+    android:background="#a7a7a6">
+	</LinearLayout>
+    
+   <LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+  	android:layout_marginTop="15dp"
+    android:orientation="vertical" >
+
+     </LinearLayout>
+    	
+    		
+
+
+			
+   					
+  						
+    <ScrollView 
+   android:layout_width="fill_parent"
+   android:layout_height="wrap_content"
+   android:scrollbars="vertical"
+ >
+
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+   android:gravity="center_vertical|center_horizontal"
+    android:orientation="vertical" 
+    
+    >
+
+    <Button
+        android:id="@+id/b_ensi_ra"
+        android:layout_marginTop="7dp"
+        android:layout_marginBottom="7dp"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:background="@drawable/style_menu_button"
+        android:text="RUMAH ADAT" 
+        android:typeface="monospace"
+        android:textColor="#a7a7a6"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        />
+    <Button
+        android:id="@+id/b_ensi_pa"
+        android:layout_marginTop="7dp"
+        android:layout_marginBottom="7dp"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:background="@drawable/style_menu_button"
+        android:text="PAKAIAN ADAT" 
+        android:typeface="monospace"
+        android:textColor="#a7a7a6"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        />
+
+
+
+    <Button
+        android:layout_marginTop="7dp"
+        android:layout_marginBottom="7dp"
+        android:id="@+id/b_ensi_st"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:background="@drawable/style_menu_button"
+        android:text="SENJATA TRADISIONAL" 
+        android:typeface="monospace"
+        android:textColor="#a7a7a6"
+        android:textSize="18dp"
+        android:textStyle="bold"/>
+
+</LinearLayout>
+</ScrollView>
+
+
+		
+		<RelativeLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="50dp" >
+			
+		</RelativeLayout>    	    
+</LinearLayout>

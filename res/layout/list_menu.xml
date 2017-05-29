@@ -1,0 +1,72 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/home_root"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#4a9bf5">
+    
+    <RelativeLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="50dp"
+ 	 >
+
+        <Button
+            android:id="@+id/btn_back"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/style_back_button_back"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/textView_tittle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="14dp"
+            android:layout_toRightOf="@+id/btn_back"
+            android:text="Ensiklopedia"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#ffffff"
+            android:typeface="sans" />
+  
+	</RelativeLayout>
+	<LinearLayout 
+    android:id="@+id/home_root"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="3dp"
+    android:background="#ffffff">
+	</LinearLayout>
+	<LinearLayout 
+    android:id="@+id/home_root"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="3dp"
+    android:background="#4a9bf5">
+	</LinearLayout>
+
+
+	<LinearLayout 
+	android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+    android:background="#ffffff"
+    android:gravity="center_horizontal|center_vertical"
+    android:orientation="vertical">
+    
+
+
+    <ListView
+        android:id="@android:id/list"
+        
+    android:background="#ffffff"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+</LinearLayout>
+
+    	
+</LinearLayout>

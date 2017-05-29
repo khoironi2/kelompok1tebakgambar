@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/home_root"
+    android:orientation="vertical" 
+    android:background="@drawable/gambar_menu"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#4a9bf5" >
+
+      <Button
+            android:id="@+id/btn_back"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/style_back_button_back"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/textView_tittle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="14dp"
+            android:layout_toRightOf="@+id/btn_back"
+            android:text="Detail"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#ffffff"
+            android:typeface="sans" />
+    </RelativeLayout>
+
+    	 	<RelativeLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="5dp"
+		    android:background="#FFFFFF" >
+		    
+			</RelativeLayout>
+			<RelativeLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="5dp"
+		    android:background="#a7a7a6" >
+    
+			</RelativeLayout>
+    		
+	<LinearLayout    
+	android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:orientation="vertical"
+     android:paddingBottom="7dp"
+    android:paddingLeft="7dp"
+    android:paddingRight="7dp"
+    android:paddingTop="7dp"
+	 >
+   						
+    <ScrollView 
+   android:layout_width="fill_parent"
+   android:layout_height="match_parent"
+   android:scrollbars="vertical"
+ >
+<LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+     android:gravity="center_vertical|center_horizontal" >
+    
+    
+    <TextView  
+     android:textColor="#ffffff"
+     android:textSize="18dp"
+     android:textStyle="bold"
+     android:typeface="sans"
+     android:text="Aplikasi kuis dan ensiklopedia Kebudayaan Indonesia" 
+     android:gravity="center"
+	 android:id="@+id/text_nama_ensiklopedia" 
+	 android:layout_height="wrap_content" 
+	 android:layout_width="match_parent" 
+	 android:layout_margin="10dp">
+        
+    </TextView>
+
+    <ImageView
+        android:id="@+id/image_ensiklopedia"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:gravity="center"
+         android:scaleType="fitXY"
+        android:src="@drawable/gambar_nama_app" />
+
+     <TextView  
+     android:textColor="#ffffff"
+     android:textSize="16dp"
+     android:textStyle="bold"
+     android:typeface="sans"
+     android:text="" 
+	 android:id="@+id/TextView01" 
+	 android:layout_height="0dp" 
+	 android:layout_width="match_parent" 
+	 android:layout_margin="10dp">
+        
+    </TextView>
+    <TextView  
+     android:textColor="#ffffff"
+     android:textSize="18dp"
+     android:textStyle="bold"
+     android:typeface="sans"
+     android:text="Kategori :" 
+	 android:id="@+id/text_kategori_detail" 
+	 android:layout_height="wrap_content" 
+	 android:layout_width="match_parent" 
+	 android:layout_margin="10dp"
+	 android:gravity="center">
+        
+    </TextView>
+     <TextView  
+     android:textColor="#ffffff"
+     android:textSize="16dp"
+     android:textStyle="bold"
+     android:typeface="sans"
+     android:text="Keterangan:" 
+	 android:id="@+id/TextView01" 
+	 android:layout_height="wrap_content" 
+	 android:layout_width="match_parent" 
+	 android:layout_margin="10dp">
+        
+    </TextView>
+     <TextView  
+     android:textColor="#ffffff"
+     android:textSize="16dp"
+     android:textStyle="bold"
+     android:typeface="sans"
+     android:text="detail" 
+	 android:id="@+id/text_detail_ensiklopedia" 
+	 android:layout_height="wrap_content" 
+	 android:layout_width="match_parent" 
+	 android:layout_margin="10dp">
+        
+    </TextView>
+     <TextView  
+     android:textColor="#ffffff"
+     android:textSize="25dp"
+     android:textStyle="bold"
+     android:typeface="sans"
+     android:text="" 
+	 android:id="@+id/text_tbh" 
+	 android:layout_height="wrap_content" 
+	 android:layout_width="match_parent" 
+	 android:layout_margin="20dp">
+        
+    </TextView>
+    
+    
+    
+</LinearLayout>
+</ScrollView>
+</LinearLayout>
+    	    
+</LinearLayout>

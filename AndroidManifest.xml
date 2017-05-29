@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.akanime.gamepilihangandabergambar"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+        
+        >
+        <activity
+            android:name=".ActSplash"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+         <activity android:name=".MenuAct"> </activity>
+         <activity android:name=".ActEnsi"> </activity>
+         <activity android:name=".ActLevel"> </activity>
+         <activity android:name=".ActLevelSoal"> </activity>
+         <activity android:name=".ActSoal"> </activity>
+         <activity android:name=".ActHasil"> </activity>
+         <activity android:name=".ActHasilSalah"> </activity>
+         <activity android:name=".ActPetunjuk"> </activity>
+         <activity android:name=".ActTentang"> </activity>
+         <activity android:name=".ActKategoriDetail"> </activity>
+         <activity android:name=".ActKategoriRumahAdat"> </activity>
+         <activity android:name=".ActKategoriPakaianAdat"> </activity>
+         <activity android:name=".ActKategoriSenjataTradisional"> </activity>
+    </application>
+
+</manifest>
